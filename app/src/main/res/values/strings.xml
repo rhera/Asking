@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Asking</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Opções</string>
+
+    <!-- Títulos de Activity -->
+    <string name="title_activity_login">Asking</string>
+    <string name="title_activity_sala">Sala</string>
+    <string name="title_activity_usuarios">Usuário</string>
+    <string name="title_activity_jogo">Jogo</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_cadastro">Nova Conta</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_pessoas">Pessoas</string>
+    <string name="title_activity_apagar">Apagar</string>
+    <string name="title_activity_nova_sala">Nova Sala</string>
+    <string name="title_activity_login_apagar">Sign in</string>
+
+    <!-- ERROS -->
+    <string name="erroConnServidor">ERRO: não foi possível conectar ao servidor. Tente novamente mais tarde.</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entre ou registre-se</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este endereço de email é inválido</string>
+    <string name="error_invalid_password">A senha informada é muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Esta informação é necessária</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="EditLogin">Login</string>
+    <string name="resNameNome">Nome</string>
+    <string name="resNameTelefone">Telefone</string>
+    <string name="resNameEmail">Email</string>
+    <string name="resNameLogin">Login</string>
+    <string name="resNameSenha">Senha</string>
+    <string name="resNameSenhaRepita">Repetir Senha</string>
+    <string name="resNameNascimento">Data de Nascimento</string>
+    <string name="resNamePesquisa">Pesquisa</string>
+    <string name="appName">Asking</string>
+    <string name="salas">Salas</string>
+    <string name="perfil">Perfil</string>
+    <string name="pessoas">Pessoas</string>
+    <string name="rank">Ranking</string>
+    <string name="sair">Sair</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="resNameEntrar">Entrar</string>
+    <string name="resNameCadastro">Cadastro</string>
+    <string name="resNameMudSenha">Mudar Senha</string>
+    <string name="resNameSalvar">Salvar</string>
+    <string name="resNameNovaSenha">Nova Senha</string>
+    <string name="resNameSenhaAtual">Senha Atual</string>
+    <string name="resNameRepitaNovaSenha">Repita Nova Senha</string>
+    <string name="resNameLoginAtual">Login Atual</string>
+    <string name="resNameMudaNome">Mudar Nome</string>
+    <string name="resNameMudarTelefone">Mudar Telefone</string>
+    <string name="resNameMudarEmail">Mudar Email</string>
+    <string name="resNameMudarNascimento">Mudar Data de Nascimento</string>
+    <string name="resNameNomeSala">Nome da Sala</string>
+    <string name="resNameSenhaNaoObrigatorio">Senha (Não é obrigatório)</string>
+    <string name="resNameTipoSala">Tipo de sala</string>
+    <string name="resNameTextArea">Área do Conhecimento</string>
+    <string name="resNameSubArea">Sub área do conhecimento</string>
+    <string name="resNameAliados">Aliados</string>
+    <string name="resNameOponentes">Oponentes</string>
+    <string name="resNameLadoB">Lado B</string>
+    <string name="resNameLadoA">Lado A</string>
+    <string name="resNameSair">Sair</string>
+    <string name="resNameColocacao">#</string>
+    <string name="resNameFoto">Foto</string>
+    <string name="resNameMedia5">Media Acer.(5)</string>
+    <string name="resNameMediaTempo">Media Tem.</string>
+
+
+</resources>

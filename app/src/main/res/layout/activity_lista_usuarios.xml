@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".view.ListaPessoasActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewFoto"
+        android:contentDescription=""
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewNome"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewFoto"
+        android:layout_toEndOf="@+id/imageViewFoto" />
+
+    <!--<Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:layout_alignTop="@+id/textViewNome"
+        android:layout_toLeftOf="@+id/buttonAdcRemAmigo"
+        android:layout_toStartOf="@+id/buttonAdcRemAmigo"
+        android:id="@+id/buttonAdcRemColaborador" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="New Button"
+        android:id="@+id/buttonAdcRemAmigo"
+        android:layout_alignTop="@+id/buttonAdcRemAmigo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" /> -->
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.feapps.asking.view.JogoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cronometro"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/bntAtualiza"
+            android:background="@drawable/ic_btn_atualiza"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="(n/n)"
+            android:id="@+id/txtQuestionNum"
+            android:layout_gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Questão"
+            android:id="@+id/textViewQuestao"
+            android:layout_below="@+id/chronometer"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:padding="5dp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewRespostas"
+            android:dividerHeight="10dp"
+            android:headerDividersEnabled="false"
+            android:divider="#ffffff"
+            android:drawSelectorOnTop="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resNameSair"
+            android:id="@+id/bntSairSala"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>
